@@ -18,20 +18,22 @@ header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    background-color: #1C2222;
+    justify-content: center;
+    background-color: #191919;
+    margin-top: 0px;
     padding: 10px 4px;
 }
 
 header ul li {
-    padding: 5px;
+    padding: 10px;
 }
 
-header ul li a{
-    color: #fff;
+header ul li a {
+    color: #ffffff;
     padding: 5px 20px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-family: bold-font;
 }
 
 article {
@@ -77,17 +79,13 @@ strong {
 }
 
 a:link {
-    color: yellow;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 a:hover {
    color: yellow; 
-   text-decoration: underline;
-}
-
-a:visited {
-    color: yellow;
+   text-decoration: none;
 }
 
 footer {
