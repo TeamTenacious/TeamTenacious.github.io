@@ -1,0 +1,91 @@
+
+html {
+    cursor: url("orangeSoul.png"), auto;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: main-font;
+    src: url(undertalefonts/8bitOperatorPlus-Regular.woff) format("opentype");
+}
+
+@font-face {
+    font-family: bold-font;
+    src: url(undertalefonts/8bitOperatorPlus-Bold.woff) format("opentype");
+}
+
+article {
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 568px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    font-family: bold-font;
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2 {
+    color: yellow;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+    font-family: main-font;
+    margin: auto;
+}
+
+strong {
+    color: orange;
+    font-family: bold-font;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+   color: yellow; 
+   text-decoration: underline;
+}
+
+a:visited {
+    color: yellow;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    p {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        width: 90%;
+    }
+}
