@@ -1,7 +1,16 @@
 /* THIS CODE WAS BASED ON THE WORK OF TEAM WILDFIRE AND THE CODE INSIDE UNDERTALEWILDFIRE.COM */
 
+html {
+    height: 100%;
+  }
+
 body {
     background-color: black;
+    flex-direction: column;
+    min-height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -34,6 +43,11 @@ header ul li a {
     text-decoration: none;
     font-size: 1.3em;
     font-family: bold-font;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
 }
 
 article {
@@ -84,13 +98,8 @@ a:link {
 }
 
 a:hover {
-   color: yellow; 
+   color: grey; 
    text-decoration: none;
-}
-
-footer {
-    margin: auto;
-    text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
