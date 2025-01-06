@@ -1,5 +1,15 @@
 /* THIS CODE WAS BASED ON THE WORK OF TEAM WILDFIRE AND THE CODE INSIDE UNDERTALEWILDFIRE.COM */
 
+@font-face {
+    font-family: main-font;
+    src: url(undertalefonts/8bitOperatorPlus-Regular.woff) format("opentype");
+}
+
+@font-face {
+    font-family: bold-font;
+    src: url(undertalefonts/8bitOperatorPlus-Bold.woff) format("opentype");
+}
+
 html {
     height: 100%;
   }
@@ -13,14 +23,10 @@ body {
     padding: 0;
 }
 
-@font-face {
-    font-family: main-font;
-    src: url(undertalefonts/8bitOperatorPlus-Regular.woff) format("opentype");
-}
-
-@font-face {
-    font-family: bold-font;
-    src: url(undertalefonts/8bitOperatorPlus-Bold.woff) format("opentype");
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 header ul {
@@ -34,20 +40,35 @@ header ul {
 }
 
 header ul li {
-    padding: 10px;
+    padding: 10px 25px;
 }
 
 header ul li a {
     color: #ffffff;
-    padding: 5px 20px;
+    padding: 10px 40px;
     text-decoration: none;
     font-size: 1.3em;
     font-family: bold-font;
 }
 
 footer {
-    margin: auto;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #191919;
+    margin-bottom: 0px;
+    padding: 10px 4px;
+}
+
+footer ul li {
+    padding: 10px 25px;
 }
 
 article {
@@ -100,16 +121,4 @@ a:link {
 a:hover {
    color: grey; 
    text-decoration: none;
-}
-
-@media only screen and (max-width: 800px) {
-    p {
-        width: 65%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    p {
-        width: 90%;
-    }
 }
