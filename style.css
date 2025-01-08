@@ -40,14 +40,14 @@ header ul {
 }
 
 header ul li {
-    padding: 10px 25px;
+    padding: 11.5px 25px;
 }
 
 header ul li a {
     color: #ffffff;
     padding: 10px 40px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: bold-font;
 }
 
