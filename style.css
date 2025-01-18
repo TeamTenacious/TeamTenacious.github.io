@@ -1,24 +1,31 @@
-/* THIS CODE WAS BASED ON THE WORK OF TEAM WILDFIRE AND THE CODE INSIDE UNDERTALEWILDFIRE.COM */
+/* for my beautiful wife, my shining star, love you alex */
 
 @font-face {
     font-family: main-font;
     src: url(undertalefonts/8bitOperatorPlus-Regular.woff) format("opentype");
+    font-weight: 400;
+    font-style: normal
 }
 
 @font-face {
     font-family: bold-font;
     src: url(undertalefonts/8bitOperatorPlus-Bold.woff) format("opentype");
+    font-weight: 400;
+    font-style: normal
 }
-
-html {
-    height: 100%;
-  }
 
 body {
     background-color: black;
-    flex-direction: column;
+    image-rendering: pixelated;
+    font-family: "8bitOperatorPlus-Regular",monospace;
+    text-shadow: 2px 2px #000;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
     min-height: 100%;
+    min-width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -80,32 +87,18 @@ article {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 h1, h2, h3 {
-    font-family: bold-font;
-    text-align: center;
-    margin: auto;
-}
-
-h1, h2 {
-    color: yellow;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h3 {
     color: whitesmoke;
+    font-family: bold-font;
 }
 
 p {
     color: whitesmoke;
     font-family: main-font;
-    margin: auto;
 }
 
 strong {
@@ -119,6 +112,6 @@ a:link {
 }
 
 a:hover {
-   color: grey; 
+   color: yellow; 
    text-decoration: none;
 }
