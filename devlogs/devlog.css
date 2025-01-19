@@ -1,23 +1,3 @@
-body {
-    background-image: url(../images/indigocity.png);
-    background-repeat: repeat-x;
-    background-position-y: center;
-    background-attachment: fixed
-}
-
-main {
-    max-width: 1400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    min-height: 85vh;
-    background-color: rgba(0,0,0,.6);
-    padding: 5rem 10rem;
-}
-
-
 .card-list .card-item .card-link {
     user-select: none;
     width: 400px;

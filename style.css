@@ -15,22 +15,32 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(../TeamTenacious.github.io/images/indigocity.png);
+    background-repeat: repeat-x;
+    background-position-y: center;
+    background-attachment: fixed;
     image-rendering: pixelated;
     font-family: "8bitOperatorPlus-Regular",monospace;
     text-shadow: 2px 2px #000;
-    font-smooth: never;
-    -webkit-font-smoothing: none;
-    min-height: 100%;
-    min-width: 100%;
-    display: flex;
-    position: relative;
-    height: 100%;
+    display: flex;  
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
+
+main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 85vh;
+    background-color: rgba(0,0,0,.6);
+    padding: 5rem 10rem;
+}
+
 
 header {
     position: absolute;
