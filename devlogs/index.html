@@ -1,67 +1,102 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../devlogs/devlog.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <title>UNDERTALE: TENACIOUS ROAD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Undertale: Tenacious Road, the friendly RPG where nobody has to die!">
         <meta name="author" content="Team Tenacious">
-        <title>UNDERTALE: TENACIOUS ROAD</title>
-        <link rel="icon" type="image/png" href="../images/Tenacity.png">
+        <meta name="og:image" content="#">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="icon" type="image/png" href="../images/Tenacity.png" type="image/png">
+        <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" type="text/css">
+        <link rel="stylesheet" href="../assets/css/devlog.css" type="text/css">
     </head>
-    <body>
-	<header class="header">
-		<ul>
-		    <li><a href="/">Home</a></li>
-		    <li><a href="/about">About</a></li>
-		    <li><a href="/devlogs">Devlogs</a></li>
-		    <li><a href="/credits">Credits</a></li>
-		</ul>	
-	</header>
-    
-    <main>
-    <div class="container swiper">
-        <div class="card-wrapper">
-            <ul class="card-list swiper-wrapper">
-                
-                <li class="card-item swiper-slide">
-                    <a href="#" class="card-link">
-                    <img src="../devlogs/2025/thumbnail.png" alt="test" class="card-image">
-                    <h2 class="badge">Newsletter</h2>
-                    <h2 class="card-title">???</h2>
-                    <p class="card-title">??????? ??, 2025</p>
-                    </a>
-                </li>
-                
-                <li class="card-item swiper-slide">
-                    <a href="https://gamejolt.com/p/october-2024-our-first-newsletter-epmset9n" class="card-link">
-                    <img src="../devlogs/october2024/thumbnail.png" alt="test" class="card-image">
-                    <h2 class="badge">Newsletter</h2>
-                    <h2 class="card-title">"Our First Newsletter"</h2>
-                    <p class="card-title">October 31, 2024</p>
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-slide-button swiper-button-prev"></div>
-            <div class="swiper-slide-button swiper-button-next"></div>
-        </div>
-    </div>
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="../devlogs/script.js"></script>
-    
-    <footer class="footer">
-            <ul>	
-            <li><a href="https://www.youtube.com/@TenaciousRoad"> <img src="../images/youtube.png"> </a></li>
-            <li><a href="https://discord.gg/RsEaY6hF6A"><img src="../images/discord.png"></li>
-            <li><a href="https://bsky.app/profile/teamtenacious.dev"><img src="../images/bluesky.png"></li>
-            <li><a href="https://x.com/tenaciousroad"><img src="../images/twitter.png"></li>
-            <li><a href="https://gamejolt.com/games/TenaciousRoad/923870"><img src="../images/gamejolt.png"></li>
-            </ul>	
-    </footer>
-    </body>
+    <body>
+	    <div class="navbar">
+            <div class="align-center">
+		        <li>
+                    <a class="navbar-link home-link" href="/">HOME</a>
+                </li>
+		        <li>
+                    <a class="navbar-link about-link" href="/about">ABOUT</a>
+                </li>
+                <li>
+                    <a class="navbar-link faq-link" href="/faq">FAQ/SUPPORT</a>
+                </li>
+		        <li>
+                    <a class="navbar-link devlogs-link" href="/devlogs">NEWS</a>
+                </li>
+		        <li>
+                    <a class="navbar-link credits-link" href="/credits">CREDITS</a>
+                </li>
+            </div>
+	    </div>
+ 
+        <main class="flex-column">
+            <article class="article align-center" style="justify-content: center; border-bottom:2px solid #FFFFFF;">
+                <img src="../assets/images/titleclock.png">
+                <h2>NEWSLETTERS & DEVLOGS</h2>
+                <br>
+                <br>      
+                <p>Here is where we post our latest updates, newsletters, and more to our community.</p>
+                <p>Stay up to date by following us on one of our social media platforms!</p>
+                <br>
+                <br>    
+            </article>
+                <br>
+                <br>
+            <div class="container swiper">
+                <div class="card-wrapper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="../assets/images/2025/valentinesday/thumbnail.png" alt="Two characters, Libel and Miao, stand infront of an empty background, whilst Libel holds Miao." class="card-image">
+                                <b class="badge">Newsletter</b>
+                                <h1 class="card-title">"Is it for fear to wet a widow’s eye?"</h1>
+                                <h1 class="card-title">Feburary 14th, 2025</h1>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="../assets/images/2024/halloweendevlog/thumbnail.png" alt="Two characters, Libel and Miao, stand infront of an empty background, whilst Libel holds Miao." class="card-image">
+                                <b class="badge">Newsletter</b>
+                                <h1 class="card-title">Our First, Most Tenacious, Newsletter</h1>
+                                <h1 class="card-title">October 31st, 2024</h1>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="D:\GithubProjects\TeamTenacious.github.io\assets\js\swiper.js"></script>
+
+        <div class="footer">
+            <div class="align-center">
+                <li>
+                    <a class="footer-link" href="https://www.youtube.com/@TenaciousRoad"> <img src="../assets/images/youtube.png" alt="youtube project page link"> </a>
+                    <a class="footer-link" href="https://discord.gg/RsEaY6hF6A"><img src="../assets/images/discord.png" alt="discord project server link"> </a>
+                    <a class="footer-link" href="https://bsky.app/profile/teamtenacious.dev"><img src="../assets/images/bluesky.png" alt="bluesky project page link"> </a>
+                    <a class="footer-link" href="https://x.com/tenaciousroad"><img src="../assets/images/twitter.png" alt="twitter project page link"> </a>
+                    <a class="footer-link" href="https://gamejolt.com/games/TenaciousRoad/923870"><img src="../assets/images/gamejolt.png" alt="gamejolt project page link"> </a>
+                </li>
+                <div class="footer-disclaimer">
+                    UNDERTALE © 2015 / DELTARUNE © 2018 by Toby Fox
+                    <br>
+                    UNDERTALE: TENACIOUS ROAD 2024-<script>document.write(new Date().getFullYear())</script>
+                    by Team Tenacious
+                    <br>
+                    <a>This project nor Team Tenacious are affiliated with Toby Fox.</a>
+                </div>
+            </div>
+        </div>
+   </body>
 </html>
